@@ -91,3 +91,5 @@ while(vidaDoHeroi > 0){
         nivelHeroi = "Radiante";
 
 }
+
+console.log("\n\nApós " + rodada + " rodadas, o nível final de " + nomeHeroi + " é " + nivelHeroi + " com " + experienciaHeroi + " de XP.");

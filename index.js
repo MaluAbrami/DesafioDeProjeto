@@ -20,3 +20,13 @@ Porém, se o número que cair não for o que se espera no seu nível atual, voc�
 No fim, você saberá quantas rodadas seu herói sobreviveu, qual foi o nível final que ele atingiu e o total de XP ganho.
 Te desejo boa sorte!
 `);
+
+while(vidaDoHeroi > 0){
+
+    if(nivelHeroi != "Radiante"){
+        rodada++;
+        console.log("\nVocê está na rodada " + rodada + " e no nível " + nivelHeroi + ". No momento, " + nomeHeroi + " está com " + vidaDoHeroi + " de vida e com " + experienciaHeroi + " de XP.");
+        dado = Math.floor(Math.random() * 6) + 1;
+        console.log("O valor que caiu no dado foi " + dado);
+    }
+}

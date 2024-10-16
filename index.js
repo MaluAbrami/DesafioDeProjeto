@@ -42,7 +42,9 @@ while(vidaDoHeroi > 0){
             break;
         }
         case "Prata":{
-
+            experienciaHeroi += (dado <= 3) ? 600 : 300;
+            (dado <= 3) ? console.log("+600XP") : (console.log("+300XP\t-1 vida"), vidaDoHeroi--);
+            break;
         }
         case "Ouro":{
 

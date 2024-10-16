@@ -22,6 +22,34 @@ No fim, você saberá quantas rodadas seu herói sobreviveu, qual foi o nível f
 Te desejo boa sorte!
 `);
 
+console.log(`
+PLACAR DOS NÍVEIS:
+\nFerro:
+-Números do dado: 1, 2, 3, 4, 5
+-Quantidade padrão de XP: 200
+Bronze:
+-Números do dado: 1, 2, 3, 4
+-Quantidade padrão de XP: 400
+Prata:
+-Números do dado: 1, 2, 3
+-Quantidade padrão de XP: 600
+Ouro:
+-Números do dado: 4, 5, 6
+-Quantidade padrão de XP: 800
+Platina:
+-Números do dado: 5, 6
+-Quantidade padrão de XP: 1000
+Ascendente:
+-Números do dado: 1, 2
+-Quantidade padrão de XP: 1000
+Imortal:
+-Números do dado: 6
+-Quantidade padrão de XP: 1000
+-Caso não acerte o número NÃO RECEBE XP
+Radiante:
+-Último nível possível
+`)
+
 //Utilizei um 'while' para garantir que a distribuição de XP para o herói só encerrasse quando suas 10 vidas iniciais acabassem
 while(vidaDoHeroi > 0){
 

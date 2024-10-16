@@ -32,7 +32,9 @@ while(vidaDoHeroi > 0){
 
     switch(nivelHeroi){
         case "Ferro":{
-
+            experienciaHeroi += (dado <= 5) ? 200 : 100; 
+            (dado <= 5) ? console.log("+200XP") : (console.log("+100XP\t-1 vida"), vidaDoHeroi--); 
+            break;
         }
         case "Bronze":{
 

@@ -29,4 +29,32 @@ while(vidaDoHeroi > 0){
         dado = Math.floor(Math.random() * 6) + 1;
         console.log("O valor que caiu no dado foi " + dado);
     }
+
+    switch(nivelHeroi){
+        case "Ferro":{
+
+        }
+        case "Bronze":{
+
+        }
+        case "Prata":{
+
+        }
+        case "Ouro":{
+
+        }
+        case "Platina":{
+
+        }
+        case "Ascendente":{
+
+        }
+        case "Imortal":{
+
+        }
+        default:{
+
+        }
+    }
+    
 }

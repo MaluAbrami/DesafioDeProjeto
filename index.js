@@ -52,7 +52,9 @@ while(vidaDoHeroi > 0){
             break;
         }
         case "Platina":{
-
+            experienciaHeroi += (dado >= 5) ? 1000 : 500;
+            (dado >= 5) ? console.log("+1000XP") : (console.log("+500XP\t-1 vida"), vidaDoHeroi--);
+            break;
         }
         case "Ascendente":{
 

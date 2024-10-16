@@ -67,7 +67,9 @@ while(vidaDoHeroi > 0){
             break;
         }
         default:{
-
+            console.log("Parabéns! Você chegou ao último nível! Então agora é um Radiante!");
+            vidaDoHeroi = 0;
+            break;
         }
     }
 

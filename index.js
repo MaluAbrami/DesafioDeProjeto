@@ -57,7 +57,9 @@ while(vidaDoHeroi > 0){
             break;
         }
         case "Ascendente":{
-
+            experienciaHeroi += (dado <= 2) ? 1000 : 500;
+            (dado <= 2) ? console.log("+1000XP") : (console.log("+500XP\t-1 vida"), vidaDoHeroi--);
+            break;
         }
         case "Imortal":{
 

@@ -55,6 +55,15 @@ Basicamente, funciona da seguinte maneira:
         - ele depende da variável ```nivelHeroi```
         - cada __case__ é um nível de herói diferente
         - utilizei o switch para poder distribuir o XP de forma diferenciada para cada nível e também para tornar a chance de tirar um número bom no dado diferente para cada nível
+        - basicamente em todos os __cases__ quando o número no dado não é bom, o herói ganha apenas metade do XP que deveria e perde 1 vida. Porém, no __case__ do nível Imortal, quando não cai o número 6 no dado, o herói perde 1 vida e não ganha nenhum XP, a ideia era tornar um pouco mais difícil chegar ao último nível
     - **Estrutura if-else**
         - também está dentro do __while__, mas vem depois da estrutura __switch__, pois a ideia é determinar o nível do herói depois de cada ganho de XP por rodada
         - utilizei vários if encadeados para poder determinar em qual nível o herói está de acordo com o seu XP
+    - **Utilização do Math.random() e Math.floor()**
+        - utilizei o ```Math.random()``` para gerar um número aleatório entre 1 e 6, para isso multipliquei ele por 6 e adicionei 1, pois assim eu determinei que ele iria iniciar do 1 e ir até o 6. Porém, esse método gera números decimais e é ai que entra o segundo método utilizado
+        - utilizei o ```Math.floor()``` para arredondar o número gerado para baixo, ou seja, se for 1.79 vai para 1, ou se for 5.31 vai para 5 e assim por diante
+
+#
+[Site da Dio](https://www.dio.me/)
+[Meu Linkedin](www.linkedin.com/in/maria-luiza-abrami-617bab330)
+[Meu Perfil na Dio](https://www.dio.me/users/marialuizaabrami)

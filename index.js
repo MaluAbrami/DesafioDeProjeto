@@ -22,6 +22,7 @@ No fim, você saberá quantas rodadas seu herói sobreviveu, qual foi o nível f
 Te desejo boa sorte!
 `);
 
+//Aqui exibo a mensagem sobre o placar de níveis e a distribuição de XP por cada nível
 console.log(`
 PLACAR DOS NÍVEIS:
 \nFerro:
@@ -58,7 +59,7 @@ while(vidaDoHeroi > 0){
 
         console.log("\nVocê está na rodada " + rodada + " e no nível " + nivelHeroi + ". No momento, " + nomeHeroi + " está com " + vidaDoHeroi + " de vida e com " + experienciaHeroi + " de XP.");
         
-        //Utilizei o Math.random() para gerar um número aleatório entre 1 e 6, por isso multipliquei ele po 6 e acrescentei 1, assim determino que seu inicio é em 1 e vai até 6
+        //Utilizei o Math.random() para gerar um número aleatório entre 1 e 6, por isso multipliquei ele por 6 e acrescentei 1, assim determino que seu inicio é em 1 e vai até 6
         //Utilizei o Math.floor() para garantir que o número gerado não seja um decimal(Já que o random gera números decimais), arredondando o número para baixo
         dado = Math.floor(Math.random() * 6) + 1;
         console.log("O valor que caiu no dado foi " + dado);
